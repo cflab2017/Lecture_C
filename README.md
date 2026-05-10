@@ -70,6 +70,21 @@ make --version
 
 > 강의 환경(Ubuntu)은 패키지 매니저 설치를 권장합니다. 소스 빌드는 시간이 오래 걸립니다.
 
+### 초보자 추천 — OS별로 한 가지씩
+
+처음이라면 아래 조합이 가장 막히지 않습니다.
+
+| OS | 추천 도구 | 설치 |
+|----|-----------|------|
+| **Windows** | **MSYS2 (UCRT64)** — 최신 GCC + 패키지 매니저로 업데이트 쉬움 | 인스톨러 실행 후 `pacman -S mingw-w64-ucrt-x86_64-gcc` |
+| Windows (간편) | **TDM-GCC** — 한 번 설치로 끝내고 싶을 때 | 인스톨러 실행만 하면 됨 |
+| **macOS** | **Xcode Command Line Tools** — `gcc` 명령은 clang이지만 학습용으로 충분 | 터미널에서 `xcode-select --install` |
+| **Linux (Ubuntu/Debian)** | **build-essential** | `sudo apt install build-essential` |
+
+에디터는 [**VS Code** + C/C++ 확장](https://code.visualstudio.com/docs/languages/cpp)
+조합을 권장합니다. 디버거·자동완성·빌드가 GUI에서 한 번에 됩니다.
+좀 더 무거운 통합 환경을 원한다면 [**CLion**](https://www.jetbrains.com/clion/)도 좋은 선택입니다.
+
 ## 디렉터리 구조
 
 ```
