@@ -1,6 +1,5 @@
 # C 언어 강의 저장소 (Lecture_C)
 
-> [코딩 도장 - C 언어](https://dojang.io/course/view.php?id=2) 커리큘럼을 참고하여
 > **CLI(터미널) 환경**에서 진행하는 단계별 C 언어 학습 저장소입니다.
 
 ## 학습 목표
