@@ -1,0 +1,35 @@
+# 빌드 산출물
+build/
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# 단원 폴더에서 직접 빌드한 실행파일 (확장자 없는 ELF는 명시적으로 무시)
+**/src/ex0*
+**/src/ex1*
+**/homework/answer/hw0*
+**/homework/answer/hw1*
+!**/src/*.c
+!**/homework/answer/*.c
+
+# 예제가 만드는 데이터 파일
+**/src/output.txt
+**/src/log.txt
+**/src/data.bin
+**/src/numbers.txt
+**/src/count.bin
+**/homework/answer/output.txt
+**/homework/answer/numbers.txt
+**/homework/answer/count.bin
+
+# 에디터/IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
