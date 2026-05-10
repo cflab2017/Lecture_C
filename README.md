@@ -60,7 +60,7 @@ make --version
 | **GCC** 릴리스 아카이브 | https://ftp.gnu.org/gnu/gcc/ |
 | **MinGW-w64** (Windows용 GCC) | https://www.mingw-w64.org/downloads/ |
 | **MSYS2** (Windows GCC 패키지 매니저) | https://www.msys2.org/ |
-| **TDM-GCC** (Windows 단순 인스톨러) | https://jmeubank.github.io/tdm-gcc/download/ |
+| **TDM-GCC** (Windows 단순 인스톨러) | https://jmeubank.github.io/tdm-gcc/ (홈) · https://jmeubank.github.io/tdm-gcc/download/ (다운로드) |
 | **WinLibs** (Windows GCC 바이너리 빌드) | https://winlibs.com/ |
 | **LLVM / Clang** (전 OS) | https://releases.llvm.org/ |
 | **Apple Xcode Command Line Tools** | https://developer.apple.com/download/all/ |
