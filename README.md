@@ -21,12 +21,37 @@
 | 표준 | C11 (`-std=c11`) |
 | 빌드 도구 | GNU Make |
 
+### gcc 설치 경로
+
+본 저장소가 검증된 환경의 실제 경로입니다.
+
+| 항목 | 경로 |
+|------|------|
+| 실행 파일 | `/usr/bin/gcc` |
+| 컴파일러 백엔드 (`cc1`) | `/usr/libexec/gcc/x86_64-linux-gnu/13/cc1` |
+| 라이브러리/내부 검색 루트 | `/usr/lib/gcc/x86_64-linux-gnu/13/` |
+| 표준 헤더 (예: `stdio.h`) | `/usr/include/` |
+
 ### 환경 확인
 
 ```bash
-gcc --version
+which gcc                       # /usr/bin/gcc
+gcc --version                   # gcc 13.3.0
+gcc -print-prog-name=cc1        # cc1 실제 경로
+gcc -print-search-dirs          # 라이브러리/프로그램 검색 경로
 make --version
 ```
+
+### OS별 설치 경로 / 설치 방법
+
+| OS | 설치 명령 | 기본 설치 경로 |
+|----|-----------|----------------|
+| Ubuntu / Debian | `sudo apt install build-essential` | `/usr/bin/gcc` |
+| Fedora / RHEL | `sudo dnf install gcc make` | `/usr/bin/gcc` |
+| macOS (Homebrew) | `brew install gcc` | `/opt/homebrew/bin/gcc-14` (Apple Silicon) / `/usr/local/bin/gcc-14` (Intel) |
+| macOS (Xcode CLI Tools) | `xcode-select --install` | `/usr/bin/gcc` (실제로는 clang) |
+| Windows (MSYS2 UCRT64) | `pacman -S mingw-w64-ucrt-x86_64-gcc` | `C:\msys64\ucrt64\bin\gcc.exe` |
+| Windows (MinGW-w64) | 인스톨러 사용 | `C:\mingw64\bin\gcc.exe` |
 
 ## 디렉터리 구조
 
