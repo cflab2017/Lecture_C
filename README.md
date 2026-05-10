@@ -53,6 +53,24 @@ make --version
 | Windows (MSYS2 UCRT64) | `pacman -S mingw-w64-ucrt-x86_64-gcc` | `C:\msys64\ucrt64\bin\gcc.exe` |
 | Windows (MinGW-w64) | 인스톨러 사용 | `C:\mingw64\bin\gcc.exe` |
 
+### 컴파일러 다운로드 경로 (공식)
+
+| 컴파일러 / 도구 | 다운로드 페이지 |
+|-----------------|------------------|
+| **GCC** (소스, 공식 미러) | https://gcc.gnu.org/mirrors.html |
+| **GCC** 릴리스 아카이브 | https://ftp.gnu.org/gnu/gcc/ |
+| **MinGW-w64** (Windows용 GCC) | https://www.mingw-w64.org/downloads/ |
+| **MSYS2** (Windows GCC 패키지 매니저) | https://www.msys2.org/ |
+| **TDM-GCC** (Windows 단순 인스톨러) | https://jmeubank.github.io/tdm-gcc/download/ |
+| **WinLibs** (Windows GCC 바이너리 빌드) | https://winlibs.com/ |
+| **LLVM / Clang** (전 OS) | https://releases.llvm.org/ |
+| **Apple Xcode Command Line Tools** | https://developer.apple.com/download/all/ |
+| **Homebrew** (macOS / Linux) | https://brew.sh/ |
+| **MSYS2 GCC 패키지 검색** | https://packages.msys2.org/queue |
+| **GNU Make** | https://www.gnu.org/software/make/ |
+
+> 강의 환경(Ubuntu)은 패키지 매니저 설치를 권장합니다. 소스 빌드는 시간이 오래 걸립니다.
+
 ## 디렉터리 구조
 
 ```
