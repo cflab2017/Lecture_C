@@ -1,5 +1,9 @@
 # C 언어 강의 저장소 (Lecture_C)
 
+> 🌐 **전체 16편 강의 보기** — [https://coding-now.com/blog/c](https://coding-now.com/blog/c)
+>
+> 한국어 무료 C 언어 강의 16편 (기초·중급·고급·심화) · Coding Now
+
 > **CLI(터미널) 환경**에서 진행하는 단계별 C 언어 학습 저장소입니다.
 
 ## 학습 목표
